@@ -5,7 +5,7 @@ class DataHolder {
   
     setData(key, value) {
       this.data[key] = value;
-      console.log(`Set data for key '${key}':`, value);
+      console.log(`Set data for key '${key}'-`, value);
     }
   
     getData(key) {
